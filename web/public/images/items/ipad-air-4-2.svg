@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 400 300" role="img" aria-label="iPad Air 4 64G 深空灰">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6f1"/>
+      <stop offset="0.55" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#dcece4"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#f4fbf7"/>
+      <stop offset="1" stop-color="#dcece4"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity=".05"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#146b52" opacity=".12"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#1f2b26" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#dots)"/>
+  <circle cx="332" cy="60" r="72" fill="#146b52" opacity=".07"/>
+  <circle cx="66" cy="250" r="52" fill="#146b52" opacity=".06"/>
+  <path d="M0 238 C96 202 152 268 248 234 S360 198 400 216 L400 300 L0 300 Z" fill="#146b52" opacity=".05"/>
+  <ellipse cx="200" cy="260" rx="116" ry="15" fill="#1f2b26" opacity=".07"/>
+
+  <g transform="translate(-56 -34) scale(1.3)"><g filter="url(#shadow)">
+    <rect x="130" y="36" width="140" height="228" rx="20" fill="#2b3934" stroke="#1f2b26" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="139" y="46" width="122" height="208" rx="12" fill="url(#screen)"/>
+    <rect x="149" y="58" width="102" height="64" rx="8" fill="#ffffff" opacity=".38"/>
+    <rect x="149" y="140" width="66" height="10" rx="5" fill="#146b52" opacity=".45"/>
+    <rect x="149" y="160" width="94" height="8" rx="4" fill="#146b52" opacity=".26"/>
+    <rect x="149" y="178" width="80" height="8" rx="4" fill="#146b52" opacity=".2"/>
+    <circle cx="200" cy="238" r="4" fill="#cfe4da" opacity=".9"/>
+  </g></g>
+  
+
+  <g transform="translate(16 16)">
+    <rect width="76" height="25" rx="12.5" fill="#fffdf8" opacity=".92" stroke="#146b52" stroke-opacity=".28"/>
+    <text x="38" y="17" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0d5140" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">成色细节</text>
+  </g>
+  <text x="384" y="289" text-anchor="end" font-size="9.5" letter-spacing="1.4" fill="#1f2b26" opacity=".34" font-family="Georgia,serif">校园集 · CAMPUS MARKET</text>
+</svg>

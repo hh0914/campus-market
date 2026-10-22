@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#146b52" />
+  <path d="M16 22h32M16 32h32M16 42h32" stroke="#f6f2ea" stroke-width="3" stroke-linecap="round" opacity="0.35" />
+  <text x="32" y="45" font-family="Songti SC, SimSun, serif" font-size="34" font-weight="700" fill="#f6f2ea" text-anchor="middle">集</text>
+</svg>

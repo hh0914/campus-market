@@ -1,0 +1,10 @@
+﻿CREATE DATABASE IF NOT EXISTS campus_market CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS campus_market_test CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER IF NOT EXISTS 'campus'@'localhost' IDENTIFIED BY 'Campus@2026';
+CREATE USER IF NOT EXISTS 'campus'@'127.0.0.1' IDENTIFIED BY 'Campus@2026';
+GRANT ALL PRIVILEGES ON campus_market.* TO 'campus'@'localhost';
+GRANT ALL PRIVILEGES ON campus_market.* TO 'campus'@'127.0.0.1';
+GRANT ALL PRIVILEGES ON campus_market_test.* TO 'campus'@'localhost';
+GRANT ALL PRIVILEGES ON campus_market_test.* TO 'campus'@'127.0.0.1';
+FLUSH PRIVILEGES;
+SHOW DATABASES;

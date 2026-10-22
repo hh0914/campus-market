@@ -1,0 +1,29 @@
+# 构建产物
+api/target/
+api/uploads/
+web/node_modules/
+web/dist/
+web/.vite/
+
+# 环境与密钥
+.env
+.env.local
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+
+# 编辑器
+.idea/
+.vscode/
+*.iml
+
+# 操作系统
+Thumbs.db
+.DS_Store
+
+# 课程作业手册（不随代码仓库分发）
+*.docx
+
+# 数据库本地数据目录（本项目使用项目外独立实例，此处兜底）
+.mysql-data/

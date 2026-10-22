@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 400 300" role="img" aria-label="冬季棉服 L 码 米白">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcf0f2"/>
+      <stop offset="0.55" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f5dfe3"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#f4fbf7"/>
+      <stop offset="1" stop-color="#f5dfe3"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity=".05"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#a34a5a" opacity=".12"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#1f2b26" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#dots)"/>
+  <circle cx="332" cy="60" r="72" fill="#a34a5a" opacity=".07"/>
+  <circle cx="66" cy="250" r="52" fill="#a34a5a" opacity=".06"/>
+  <path d="M0 238 C96 202 152 268 248 234 S360 198 400 216 L400 300 L0 300 Z" fill="#a34a5a" opacity=".05"/>
+  <ellipse cx="200" cy="260" rx="116" ry="15" fill="#1f2b26" opacity=".07"/>
+
+  <g transform="translate(0 0)"><g filter="url(#shadow)">
+    <path d="M200 52 C184 52 172 60 166 74 L132 86 L104 152 L130 166 L148 132 L148 250 C168 258 232 258 252 250 L252 132 L270 166 L296 152 L268 86 L234 74 C228 60 216 52 200 52 Z" fill="#f4eee2" stroke="#1f2b26" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M200 56 V252" fill="none" stroke="#1f2b26" stroke-width="2" stroke-dasharray="5 4" opacity=".42"/>
+    <g fill="none" stroke="#a34a5a" stroke-width="2" opacity=".38">
+      <path d="M150 156 H250"/><path d="M149 176 H251"/><path d="M149 196 H251"/><path d="M150 216 H250"/>
+      <path d="M120 124 L142 136"/><path d="M258 136 L280 124"/>
+    </g>
+    <path d="M170 74 C176 84 186 90 200 90 C214 90 224 84 230 74" fill="none" stroke="#1f2b26" stroke-width="2.5" opacity=".5"/>
+    <circle cx="200" cy="104" r="4" fill="#a34a5a"/>
+  </g></g>
+  
+
+  <g transform="translate(16 16)">
+    <rect width="76" height="25" rx="12.5" fill="#fffdf8" opacity=".92" stroke="#a34a5a" stroke-opacity=".28"/>
+    <text x="38" y="17" text-anchor="middle" font-size="11.5" font-weight="600" fill="#7f3a48" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">校园实拍</text>
+  </g>
+  <text x="384" y="289" text-anchor="end" font-size="9.5" letter-spacing="1.4" fill="#1f2b26" opacity=".34" font-family="Georgia,serif">校园集 · CAMPUS MARKET</text>
+</svg>
